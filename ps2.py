@@ -5,15 +5,12 @@ lower_bound=int(input())
 upper_bound=int(input())
 number=random.randint(lower_bound,upper_bound)
 guess_limit=math.ceil(math.log(upper_bound-lower_bound+1))
-print(number)
-print(guess_limit)
-
 
 while(1):
     if guess_limit==0:
         print("You loss! Ran out of guesses")
         break
-    
+
     print("Enter your guess")
     guess=int(input())
     
@@ -30,6 +27,5 @@ while(1):
 
     guess_limit=guess_limit-1
  
-    print(guess_limit)
-
+    
 
