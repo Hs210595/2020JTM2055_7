@@ -27,10 +27,15 @@ class software_lab(lab):
         else:
             print(' {0}(I) can be reached at {1} '.format(self.name,self.email))
 
-s1=software_lab('Hrishi','S','dfbajb@gmai.com',40)
+s1=software_lab('Hrishi','S','jtm202055@iitd.ac.in',45)
+i1=software_lab('Subrat_Kar','I','subratkar@ee.iitd.ac.in',0)
+s1.gettr()
+s1.print_info()
+s1.settr('hrishikeshsaste@gmail.com')
+s1.print_info()
 s1.print_marks()
-i1=software_lab('Vivek','I','vivek@cc.com',50)
 i1.print_marks()
+
 
 
 

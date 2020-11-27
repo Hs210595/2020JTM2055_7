@@ -8,7 +8,7 @@ guess_limit=math.ceil(math.log(upper_bound-lower_bound+1))
 
 while(1):
     if guess_limit==0:
-        print("You loss! Ran out of guesses")
+        print("You loss! Ran out of guesses. Correct no is  {0}".format(number))
         break
 
     print("Enter your guess")
